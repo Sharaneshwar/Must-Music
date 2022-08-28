@@ -41,11 +41,11 @@ if (albumSelected === 'rrr_ost') {
 } else if (albumSelected === 'rrr') {
     myAlbumTitle = 'RRR';
     myAlbumCover = `covers/${albumSelected}.png`;
-    songs.push({ songName: 'Dosti', filePath: 'songs/rrr/1.mp3', duration: '5:04' },
-        { songName: 'Naatu Naatu', filePath: 'songs/rrr/2.mp3', duration: '4:34' },
-        { songName: 'Janani', filePath: 'songs/rrr/3.mp3', duration: '3:10' },
-        { songName: 'Komuram Bheemudo', filePath: 'songs/rrr/4.mp3', duration: '4:08' },
-        { songName: 'Raamam Raaghavam', filePath: 'songs/rrr/5.mp3', duration: '3:54' },
+    songs.push({ songName: 'Dosti', filePath: 'songs/rrr/1.mp3', duration: '5:12' },
+        { songName: 'Naatu Naatu', filePath: 'songs/rrr/2.mp3', duration: '4:41' },
+        { songName: 'Janani', filePath: 'songs/rrr/3.mp3', duration: '3:15' },
+        { songName: 'Komuram Bheemudo', filePath: 'songs/rrr/4.mp3', duration: '5:52' },
+        { songName: 'Raamam Raaghavam', filePath: 'songs/rrr/5.mp3', duration: '4:00' },
         { songName: 'Etthara Jenda', filePath: 'songs/rrr/6.mp3', duration: '4:11' },
         { songName: 'Komma Uyyala', filePath: 'songs/rrr/7.mp3', duration: '3:01' });
     document.getElementById("containerBgColor").style.backgroundColor = "rgba(114, 86, 59, 0.76)";
