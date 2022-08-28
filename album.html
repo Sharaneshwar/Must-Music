@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Must Music - Your Fav Music</title>
+    <link rel="icon" href="img/logo.png" type="image/icon type">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width: 700px)" href="phone.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <nav>
+            <ul>
+                <a href="index.html">
+                    <li class="brand"><img src="img/logo.png" alt="Must Music">Must Music</li>
+                </a>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="container" id="containerBgColor">
+        <div class="songAlbum">
+            <div id="albumTitle"></div>
+            <img id="albumCover">
+        </div>
+        <div id="line"></div>
+        <div class="songList">
+            Songs
+            <div id="songItemContainer"></div>
+        </div>
+    </div>
+
+    <div class="bottom">
+        <div><img alt="" id="masterSongCover"></div>
+        <div id="masterSongName"></div>
+        <div><img src="img/playing.gif" id="gif"></div>
+        <div class="icons">
+            <!-- fontawesome icons -->
+            <i class="fa-solid fa-xl fa-backward-step" id="previous"></i>
+            <i class="fa-solid fa-2xl fa-circle-play" id="masterPlay"></i>
+            <i class="fa-solid fa-xl fa-forward-step" id="next"></i>
+        </div>
+        <div class="progressBarContent">
+            <span id="masterSongProgressDuration"></span>
+            <input type="range" name="range" id="myProgressBar" value="0" step="0.1">
+            <span id="masterSongDuration"></span>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/7485876171.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,196 @@
+body{
+    background-image: url('img/bg_mobile.jpg');
+    backdrop-filter: brightness(20%);
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+#hideBottom{
+    display: none;
+}
+
+/* navbar */
+.brand {
+    font-size: 1rem;
+    padding: 0 10px;
+}
+
+.brand img {
+    width: 25px;
+}
+
+nav ul li a {
+    padding: 3px 10px;
+}
+
+/* HomePage */
+.home_body {
+    margin-top: 30px;
+    width: 90%;
+    background-color: rgba(56, 56, 56, 0);
+    padding: 0px;
+}
+
+#greeting {
+    font-size: 35px;
+    animation:
+        typing 1.5s steps(30, end),
+        blink-caret .75s step-end 6;
+}
+
+#horizontalLine {
+    margin: 20px auto;
+    width: 90%;
+}
+
+.albumList {
+    margin: 0 auto;
+    max-width: 90%;
+}
+
+.albumList span {
+    padding: 0px 0;
+}
+
+.albumCovers {
+    margin-top: 10px;
+}
+
+.albumCovers img {
+    border-radius: 20px;
+    margin: 10px;
+    padding: 5px;
+    width: 170px;
+    height: 170px;
+    cursor: pointer;
+}
+
+/* Albums Page */
+.container {
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 90vw;
+}
+
+.songAlbum {
+    padding: 20px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#albumTitle {
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.songAlbum img {
+    width: 60%;
+    margin-top: 20px;
+}
+
+#line {
+    margin: 0 auto;
+    height: 1px;
+    width: 90%;
+    border-top: 2px solid white;
+}
+
+.songItem {
+    margin: auto;
+    margin-bottom: 12px;
+    height: 35px;
+    font-size: 12px;
+}
+
+.songItem img {
+    height: 25px;
+    margin: 0 10px;
+}
+
+.songItemPlay {
+    margin: 0 15px;
+}
+
+.bottom {
+    height: 110px;
+    justify-content: flex-end;
+}
+
+.icons {
+    margin-bottom: 10px;
+    margin-top: 45px;
+}
+
+#masterSongCover {
+    position: absolute;;
+    left: 15px;
+    bottom: 45px;
+}
+
+#masterSongName {
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 77px;
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.progressBarContent{
+    margin-bottom: 10px;
+}
+
+#myProgressBar {
+    width: 70vw;
+}
+
+#masterSongProgressDuration {
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+#masterSongDuration {
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+#gif {
+    position: absolute;
+    right: 15px;
+    bottom: 45px;
+    width: 50px;
+    height: 50px;
+}
+
+/* About Me Page */
+.aboutMe{
+    background-color: rgb(56 56 56 / 0%);
+    flex-direction: column-reverse;
+    justify-content:flex-end;
+    width: 90vw;
+    margin: 50px auto;
+    padding: 10px;
+}
+
+.myContent{
+    margin: 0px;
+    padding: 0;
+}
+
+.myImage img{
+    width: 200px;
+    padding: 5px;
+}
+
+.myContent{
+    padding-top: 25px;
+    font-size: 25px;
+    text-align: center;
+}
