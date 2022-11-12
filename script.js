@@ -1,6 +1,6 @@
 var preloader = document.getElementById("preloader");
 window.addEventListener('load', function () {
-	preloader.style.display = 'none';
+    preloader.style.display = 'none';
 })
 
 // Homepage script
@@ -10,9 +10,9 @@ var greet;
 
 if (hrs < 12)
     greet = 'Good Morning';
-else if (hrs >= 12 && hrs <= 17)
+else if (hrs >= 12 && hrs < 17)
     greet = 'Good Afternoon';
-else if (hrs >= 17 && hrs <= 24)
+else if (hrs >= 17 && hrs < 24)
     greet = 'Good Evening';
 
 let greeting = document.getElementById('greeting');
