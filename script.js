@@ -23,11 +23,7 @@ if (greeting != null)
 function navigateAlbum(ele) {
     window.location.href = `album.html?albumSelected=${ele.id}`;
 }
-const params = new Proxy(new URLSearchParams(window.location.search), {
-    get: (searchParams, prop) => searchParams.get(prop),
-});
-albumSelected = params.albumSelected;
-
+albumSelected = new URLSearchParams(window.location.search).get('albumSelected');
 
 // Album Page Script
 let songs = new Array();
