@@ -12,7 +12,9 @@ body::-webkit-scrollbar {
 #hideBottom{
     display: none;
 }
-
+.social{
+    display: none;
+}
 /* navbar */
 .brand {
     font-size: 1rem;
